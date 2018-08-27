@@ -7,6 +7,7 @@ namespace projeto1{
             double x = 3.141592;
 
             Console.WriteLine(x);
+            Console.Write("Resultado!");
             Console.WriteLine(x.ToString("F2"));
             Console.WriteLine(x.ToString("F5"));
             Console.WriteLine(x.ToString("F5", CultureInfo.InvariantCulture));
